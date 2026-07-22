@@ -1,0 +1,2 @@
+Este proyecto es para sustituir el sistema de Inventario de Equipos con un formulario en la nube hosteado en la pagina de senekati.com para poder reemplazar el Excel que actualmente se usa. Se busca poder tener
+un formulario para agregar el equipo con la información del Equipo, del Usuario, los componentes del hardware y las especificaciones del Software del equipo, y llevar un registro de los mantenimientos del mismo.
