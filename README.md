@@ -1,2 +1,6 @@
 Este proyecto es para sustituir el sistema de Inventario de Equipos con un formulario en la nube hosteado en la pagina de senekati.com para poder reemplazar el Excel que actualmente se usa. Se busca poder tener
 un formulario para agregar el equipo con la información del Equipo, del Usuario, los componentes del hardware y las especificaciones del Software del equipo, y llevar un registro de los mantenimientos del mismo.
+El inventario completo se basa en 3 partes:
+1 - El dashboard de los equipos, donde se presentará la cantidad de equipos del Inventario, los que tienen un mantenimiento vencido (se realizó el ultimo hace mas de 6 meses), un mantenimiento proximo (cerca de 2 meses), y los que se encuentran al corriente o de los que no existen preocupaciones (2 meses en adelante). Al hacer click a cada uno presenta información, siendo la principal la de los equipos que lleva a la tabla de equipos.
+2 - La tabla de equipos presenta la información mas importante de manera resumida para la vista del Tecnico, como los componentes y especificaciones del Software, y las fechas de los mantenimientos.
+3 - Al hacer click en uno de los equipos se presenta la información completa y detallada por partes asi como se agregó al Formulario la primera vez.
