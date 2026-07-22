@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos</title>
+</head>
+
+<body>
+
+    <h1>Equipos</h1>
+    <!-- Botón para mostrar el formulario de Agregar Equipo -->
+    <button onclick="mostrarFormulario()">
+        + Agregar equipo
+    </button>
+
+    <!-- Tabla que muestra los equipos guardados -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID Equipo</th>
+                <th>Usuario</th>
+                <th>Departamento</th>
+                <th>Direccion IP</th>
+                <th>Direccion MAC</th>
+                <th>Tarjeta Madre</th>
+                <th>CPU</th>
+                <th>RAM</th>
+                <th>OS</th>
+                <th>Almacenamiento</th>
+                <th>Proximo Mantenimiento</th>
+                <th>Días Restantes</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="tablaEquipos">
+        <!-- Aquí se agregarán los equipos dinámicamente de acuerdo al orden de la tabla en javascript -->
+        </tbody>
+    </table>
+
+
+    <!-- Formulario para agregar un equipo -->
+    <div id="modalEquipo" style="display: none;">
+
+
+        <h2>Agregar Equipo</h2>
+
+
+        <!-- DIV para informacion principal del equipo -->
+        <div class="seccion" id="infoEquipo">
+            <h3>Información del Equipo</h3>
+            <label>ID Equipo</label>
+            <input type="text" id="idEquipo">
+
+            <label>Nombre Usuario</label>
+            <input type="text" id="nombreUsuario">
+
+            <label>Departamento</label>
+            <input type="text" id="departamento">
+
+            <label>Direccion IP</label>
+            <input type="text" id="direccionIP">
+
+            <label>Direccion MAC</label>
+            <input type="text" id="direccionMAC">
+        </div>
+
+        <!-- DIV para la informacion de la tarjeta madre-->
+        <div class="seccion" id="especificaciones">
+            <h3>Especificaciones</h3>
+            <label>Marca Tarjeta Madre</label>
+            <input type="text" id="marcaMB">
+
+            <label>Modelo Tarjeta Madre</label>
+            <input type="text" id="modeloMB">
+
+            <label>Marca CPU</label>
+            <input type="text" id="marcaCPU">
+
+            <label>Familia CPU</label>
+            <input type="text" id="familiaCPU">
+
+            <label>Modelo CPU</label>
+            <input type="text" id="modeloCPU">
+        </div>
+        <!-- DIV para la informacion de la memoria RAM-->
+        <div class="seccion" id="memoriaRAM">
+            <h3>Memoria RAM</h3>
+            <label>Tipo de RAM</label>
+            <select id="tipoRAM">
+                <option>DDR3</option>
+                <option>DDR4</option>
+                <option>DDR5</option>
+            </select>
+            <label>Cantidad de slots</label>
+            <select id="cantidadSlots" onchange="crearSlots()">
+                <option value="2">2</option>
+                <option value="4">4</option>
+            </select>
+            <div id="slotsRAM"></div>
+        </div>
+        <!-- DIV para la informacion del sistema operativo-->
+        <div class="seccion" id="sistemaOperativo">
+            <h3>Sistema Operativo</h3>
+            <label>OS</label>
+            <input type="text" id="SO">
+            <label>Version</label>
+            <input type="text" id="versionSO">
+            <label>Edicion</label>
+            <input type="text" id="edicionSO">
+            <label>Arquitectura</label>
+            <input type="text" id="arquitecturaSO">
+        </div>
+
+        <!-- DIV para la informacion del almacenamiento-->
+        <div class="seccion" id="almacenamiento">
+            <h3>Almacenamiento</h3>
+            <button type="button" onclick="agregarUnidadAlmacenamiento()">
+                + Agregar unidad
+            </button>
+            <div id="listaAlmacenamiento">
+            </div>
+        </div>
+
+        <!-- DIV para la informacion del mantenimiento-->
+        <div class="seccion" id="mantenimiento">
+
+            <h3>Mantenimiento</h3>
+
+            <label>Último mantenimiento</label>
+            <input type="date" id="ultimoMantenimiento" onchange="calcularMantenimiento()">
+
+            <label>Próximo mantenimiento</label>
+            <input type="date" id="proximoMantenimiento" readonly>
+
+            <label>Días restantes</label>
+            <input type="number" id="diasRestantes" readonly>
+
+        </div>
+
+        <!-- DIV para los botones de cerrar y guardar del formulario de Agregar Equipo-->
+        <div>
+            <button onclick="cerrarFormulario()">
+                Cerrar
+            </button>
+
+            <button onclick="guardarEquipo()">
+                Guardar
+            </button>
+        </div>
+
+    </div>
+
+    <!-- Vinculacion con javascript -->
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
