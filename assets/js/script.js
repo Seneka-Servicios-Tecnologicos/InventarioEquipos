@@ -64,6 +64,35 @@ function guardarEquipo() {
 
     }
 
+    /* Guardar datos con el API de PHP*/
+    
+    let datos = new FormData();
+
+datos.append("id_equipo", idEquipo);
+datos.append("nombre_usuario", nombreUsuario);
+datos.append("departamento", departamento);
+datos.append("direccion_ip", direccionIP);
+datos.append("direccion_mac", direccionMAC);
+
+console.log({
+    idEquipo,
+    nombreUsuario,
+    departamento,
+    direccionIP,
+    direccionMAC
+});
+
+fetch("api/guardar_equipo.php", {
+    method: "POST",
+    body: datos
+})
+.then(respuesta => respuesta.text())
+.then(resultado => {
+
+    console.log(resultado);
+
+});
+
     /* Agrega el equipo a la tabla */
     let tabla = document.getElementById("tablaEquipos");
 
