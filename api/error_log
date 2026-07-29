@@ -1,0 +1,49 @@
+[22-Jul-2026 13:04:21 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'idequipo' in 'field list' in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php:17
+Stack trace:
+#0 /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 17
+[22-Jul-2026 13:06:46 America/Mexico_City] PHP Warning:  Undefined array key "id_equipo" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 6
+[22-Jul-2026 13:06:46 America/Mexico_City] PHP Warning:  Undefined array key "nombre_usuario" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 7
+[22-Jul-2026 13:06:46 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'idequipo' in 'field list' in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php:17
+Stack trace:
+#0 /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 17
+[22-Jul-2026 13:08:53 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'idequipo' in 'field list' in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php:17
+Stack trace:
+#0 /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php(17): mysqli->query()
+#1 {main}
+  thrown in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 17
+[22-Jul-2026 13:10:54 America/Mexico_City] PHP Warning:  Undefined variable $id_equipo in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 14
+[22-Jul-2026 13:10:54 America/Mexico_City] PHP Warning:  Undefined variable $nombre_usuario in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 14
+[22-Jul-2026 13:12:27 America/Mexico_City] PHP Warning:  Undefined variable $id_equipo in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 14
+[22-Jul-2026 13:12:27 America/Mexico_City] PHP Warning:  Undefined variable $nombre_usuario in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 14
+[22-Jul-2026 19:33:28 America/Mexico_City] PHP Warning:  Undefined array key "id_equipo" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 6
+[22-Jul-2026 19:33:28 America/Mexico_City] PHP Warning:  Undefined array key "nombre_usuario" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 7
+[22-Jul-2026 19:33:28 America/Mexico_City] PHP Warning:  Undefined array key "departamento" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 8
+[22-Jul-2026 21:16:10 America/Mexico_City] PHP Warning:  Undefined array key "id_equipo" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 6
+[22-Jul-2026 21:16:10 America/Mexico_City] PHP Warning:  Undefined array key "nombre_usuario" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 7
+[22-Jul-2026 21:16:10 America/Mexico_City] PHP Warning:  Undefined array key "departamento" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 8
+[23-Jul-2026 17:44:51 America/Mexico_City] PHP Warning:  Undefined array key "id_equipo" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 6
+[23-Jul-2026 17:44:51 America/Mexico_City] PHP Warning:  Undefined array key "nombre_usuario" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 7
+[23-Jul-2026 17:44:51 America/Mexico_City] PHP Warning:  Undefined array key "departamento" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 8
+[25-Jul-2026 02:03:54 America/Mexico_City] PHP Warning:  Undefined array key "id_equipo" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 6
+[25-Jul-2026 02:03:54 America/Mexico_City] PHP Warning:  Undefined array key "nombre_usuario" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 7
+[25-Jul-2026 02:03:54 America/Mexico_City] PHP Warning:  Undefined array key "departamento" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 8
+[28-Jul-2026 11:19:25 America/Mexico_City] PHP Warning:  Undefined array key "id_equipo" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 6
+[28-Jul-2026 11:19:25 America/Mexico_City] PHP Warning:  Undefined array key "nombre_usuario" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 7
+[28-Jul-2026 11:19:25 America/Mexico_City] PHP Warning:  Undefined array key "departamento" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 8
+[28-Jul-2026 15:44:23 America/Mexico_City] PHP Warning:  Undefined array key "id_equipo" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 6
+[28-Jul-2026 15:44:23 America/Mexico_City] PHP Warning:  Undefined array key "nombre_usuario" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 7
+[28-Jul-2026 15:44:23 America/Mexico_City] PHP Warning:  Undefined array key "departamento" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 8
+[29-Jul-2026 13:44:40 America/Mexico_City] PHP Warning:  Undefined array key "direccion_ip" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 9
+[29-Jul-2026 13:44:40 America/Mexico_City] PHP Warning:  Undefined array key "direccion_mac" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 10
+[29-Jul-2026 13:44:54 America/Mexico_City] PHP Warning:  Undefined array key "direccion_ip" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 9
+[29-Jul-2026 13:44:54 America/Mexico_City] PHP Warning:  Undefined array key "direccion_mac" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 10
+[29-Jul-2026 13:54:53 America/Mexico_City] PHP Warning:  Undefined array key "direccion_ip" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 9
+[29-Jul-2026 13:54:53 America/Mexico_City] PHP Warning:  Undefined array key "direccion_mac" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 10
+[29-Jul-2026 13:59:07 America/Mexico_City] PHP Warning:  Undefined array key "direccion_ip" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 9
+[29-Jul-2026 13:59:07 America/Mexico_City] PHP Warning:  Undefined array key "direccion_mac" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 10
+[29-Jul-2026 13:59:50 America/Mexico_City] PHP Warning:  Undefined array key "direccion_ip" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 9
+[29-Jul-2026 13:59:50 America/Mexico_City] PHP Warning:  Undefined array key "direccion_mac" in /home/senekati/public_html/inventario_equipos/api/guardar_equipo.php on line 10
