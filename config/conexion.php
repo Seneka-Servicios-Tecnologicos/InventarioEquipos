@@ -1,8 +1,8 @@
 <?php
 
-$servidor = "localhost";
-$usuario = "senekati_administrador";
-$password = "Systemas#32.!Inventario.!";
+$servidor = "127.0.0.1";
+$usuario = "root";
+$password = "";
 $baseDatos = "senekati_inventario_equipos";
 
 $conn = new mysqli(
